@@ -54,6 +54,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Chk.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -119,6 +122,15 @@
   <ItemGroup>
     <Resource Include="Green_check.png" />
     <Resource Include="RedX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="md5sum.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphicloads-Colorful-Long-Shadow-Check-3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Chk.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
