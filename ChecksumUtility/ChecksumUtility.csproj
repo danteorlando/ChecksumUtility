@@ -124,12 +124,6 @@
     <Resource Include="RedX.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="md5sum.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Graphicloads-Colorful-Long-Shadow-Check-3.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Chk.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

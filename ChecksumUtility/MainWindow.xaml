@@ -28,7 +28,8 @@
         <Label x:Name="fileLabel" Content="File: " HorizontalAlignment="Left" Margin="21,45,0,0" VerticalAlignment="Top"/>
         <Label x:Name="fileValue" Content="Label" HorizontalAlignment="Left" Margin="103,45,0,0" VerticalAlignment="Top"/>
         <Label x:Name="md5Label" Content="md5: " HorizontalAlignment="Left" Margin="16,73,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="md5Value" Content="Label" HorizontalAlignment="Left" Margin="103,73,0,0" VerticalAlignment="Top"/>
+        <!--<Label x:Name="md5Value" Content="Label" HorizontalAlignment="Left" Margin="103,73,0,0" VerticalAlignment="Top"/>-->
+        <TextBox x:Name="md5Value" Text="Label" HorizontalAlignment="Left" Margin="103,73,0,0" VerticalAlignment="Top" Width="195" IsReadOnly="True"/>
         <Label x:Name="sha1Label" Content="sha1: " HorizontalAlignment="Left" Margin="15,101,0,0" VerticalAlignment="Top"/>
         <Label x:Name="sha1Value" Content="Label" HorizontalAlignment="Left" Margin="103,101,0,0" VerticalAlignment="Top"/>
         <Label x:Name="sha256Label" Content="sha256: " HorizontalAlignment="Left" Margin="3,129,0,0" VerticalAlignment="Top"/>

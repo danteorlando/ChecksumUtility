@@ -45,7 +45,8 @@ namespace ChecksumUtility
 
                 using (var stream = File.OpenRead(filename))
                 {
-                    md5Value.Content = BitConverter.ToString(md5.ComputeHash(stream)).Replace("-", string.Empty).ToLower().Trim();
+                    //md5Value.Content = BitConverter.ToString(md5.ComputeHash(stream)).Replace("-", string.Empty).ToLower().Trim();
+                    md5Value.Text = BitConverter.ToString(md5.ComputeHash(stream)).Replace("-", string.Empty).ToLower().Trim();
                     stream.Seek(0, SeekOrigin.Begin);
 
                     sha256Value.Content = BitConverter.ToString(sha256.ComputeHash(stream)).Replace("-", string.Empty).ToLower().Trim();
@@ -75,7 +76,7 @@ namespace ChecksumUtility
             String key = textBox.Text.ToLower().Trim();
             if (!String.IsNullOrEmpty(key))
             {
-                if (key.Equals(md5Value.Content))
+                if (key.Equals(md5Value.Text))
                 {
                     img_md5.Source = greenCheck;
                     img_sha1.Source = redX;
